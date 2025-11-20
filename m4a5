@@ -1,2 +1,6 @@
-r=input("What is the radius of your circle?")
-area = r * 3.14
+print("Hello!")
+r= float(input("What is the radius of your circle?"))
+pi = 3.14
+area = pi * r**2
+
+print(area)
