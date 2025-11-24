@@ -1,8 +1,10 @@
-choice = str(input("Do you like math or just want to graduate?")
+user_input = str(input("Enter a 1 for a math board or 2 for a graduation hat")
 
 
-if choice == "math":
-    print ('''_______________________
+if user_input == math:
+   math = 1
+   
+ print ('''_______________________
          |\_____________________/|
          ||                     ||
          ||  _       _          ||
