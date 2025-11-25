@@ -1,0 +1,27 @@
+# This function will add two numbers together.
+def sum(num1, num2):
+    return num1 + num2
+# This function will subtract two numbers together.
+def subtract(num1, num2):
+    return num1-num2
+# get user input
+choice = input("add or subtract?")
+# code if user chooses to add
+if choice == "add":
+    # float to support decimals
+    num1 = float(input("What is your first number?"))
+    num2 = float(input("What is your second number?"))
+    # f string to format print message
+    print (f" The answer is {sum(num1,num2)}")
+# subtraction if user chose subtract
+elif choice == "subtract":
+    num1 = float(input("What is your first number?"))
+    num2 = float(input("What is your second number?"))
+    print (f" The answer is {subtract(num1,num2)}")
+
+else:
+    print("This program only supports addition or subtraction")
+print("Have a good day!")
+
+  
+  
